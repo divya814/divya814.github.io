@@ -1,8 +1,5 @@
-@import url(./partials/_variables.css);
-@import url(./partials/_global.css);
-
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* navigation */ 
@@ -23,61 +20,75 @@ body{
     text-transform: uppercase;
     padding: 1rem;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: blueviolet;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: blueviolet;
     background-clip: text;
 }
 
 /* Home */
 .site-main .site-banner {
     background: url(../img/background.jpg) no-repeat;
-    height: 450px;
+    height: 30rem;
     color: white;
     width: 100%;
     background-position: center center;
-    margin: 30px 0;
-}
+    padding: 2.3rem;
+    }
 
 .site-main .site-banner .site-title h3{
-    padding-top: 7%;
+    padding-top: 8%;
     font-weight: 300;
+    font-size: 2rem;
 }
 
 .site-main .site-banner .site-title h1{
     font-size: 3.5rem;
+    letter-spacing: 0.2rem;
 }
 
 .site-main .site-banner .site-title h4{
+    margin-top: 2rem;
     font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+}
+.site-main .site-banner .site-title button{
+    background-color: white;
+    margin-top: 2.5rem;
+    padding: 0.5rem;
+    
+}
+.site-main .site-banner .site-title button a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.site-main .site-banner .site-title button:hover{
+    background-color: rgb(121, 29, 207);
+
 }
 .site-main .site-banner .site-title button a:hover{
-    text-decoration: none;
+    text-decoration: none;    
     color: white;
 }
-
 /* End Home */ 
 
 /* Start About*/ 
 
 .site-main .about-area{
     margin-top: 3rem;
-    padding: 9rem 4rem;
+    padding: 9rem 2rem;
 }
 .site-main .about-area .container-fluid img{
     width: 24rem;
-    height: 24rem;
-    
+    height: 24rem;    
     border-radius: 100%;
     margin: 12%;
     box-shadow: 1px 8px 30px #b1afaf;
@@ -85,21 +96,29 @@ body{
 .site-main .about-area .about-title h2 > span{
     display: block;
     font-size: 40px;
-    font-weight: bolder;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 14px;
+    font-weight: 500;
+    letter-spacing: 0.4rem;
 }
 
 .site-main .about-area .about-title .paragraph > p{
     padding: .4rem 0;
+    font-size: 1rem;
+    
+}
+.site-main .about-area button{
+    background-color: rgb(145, 46, 238);
+    padding: 0.6rem;
+}
+.site-main .about-area button:hover{
+    background-color: rgb(6, 87, 240);
 }
 .site-main .about-area button a{
     color: white;
-}
-.site-main .about-area button a:hover{
-    color: black;
+    font-size: 20px;
     text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 /* End About Area */ 
 
 
@@ -132,6 +151,7 @@ body{
 .site-main .brand-area .first-row .col-lg-3 > .single-brand > img{
     width: 150px;
     height: 140px;
+    margin: 0.3rem 0rem;
 }
 
 .site-main .brand-area .first-row .col-lg-3 > .single-brand:hover{
@@ -144,7 +164,7 @@ body{
 /* Certificates */ 
 
 .site-main .services-area{
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
 }
 
 .site-main .services-area .services-title{
@@ -152,14 +172,14 @@ body{
 }
 
 .site-main .services-area .services-title h1{
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .site-main .services-area .services{
     background: rgba(235, 237, 238, 0.973);
-    padding: 1rem 0;
+    padding: 0.5rem;
     width: 30rem;
-    margin: 1rem;
+    margin: 0.8rem;
     transition: box-shadow .7s ease;
 }
 
@@ -200,12 +220,12 @@ footer.footer-area .container a img{
 
 footer.footer-area .social h5{
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 40px;
 }
 
 footer.footer-area .social a > i{
-    font-size:1.8rem;
-    padding: 1rem;
+    font-size:2rem;
+    padding: 0.6rem;
     color: rgb(213, 112, 233);
     margin: 14px 8px;
 }
@@ -217,7 +237,6 @@ footer.footer-area .social a:hover > i{
 footer.footer-area .container p{
     font-size: 1.2rem;
     font-weight: 100;
-    margin-bottom: 0;
-    margin-top: 1.2rem;
+    margin-top: 1rem;
 }
 /* End Footer */ 
