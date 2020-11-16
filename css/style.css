@@ -8,7 +8,7 @@ body{
 }
 
 .header_area .main-menu .navbar{
-    padding: 0.3rem 15rem ;
+    padding: 0.3rem 10rem ;
 }
 .header_area .main-menu .navbar .navbar-brand img{
     border-radius: 100%;
@@ -45,14 +45,14 @@ body{
     }
 
 .site-main .site-banner .site-title h3{
-    padding-top: 4rem;
+    padding-top: 3.5rem;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .site-main .site-banner .site-title h1{
-    font-size: 3.5rem;
-    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    
 }
 
 .site-main .site-banner .site-title h4{
