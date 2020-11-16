@@ -37,7 +37,7 @@ body{
 /* Home */
 .site-main .site-banner {
     background: url(../img/background.jpg) no-repeat;
-    height: 30rem;
+    height: 35rem;
     color: white;
     width: 100%;
     background-position: center center;
@@ -85,11 +85,11 @@ body{
 
 .site-main .about-area{
     margin-top: 3rem;
-    padding: 9rem 2rem;
+    padding: 8rem 1rem;
 }
 .site-main .about-area .container-fluid img{
-    width: 24rem;
-    height: 24rem;    
+    width: 22rem;
+    height: 22rem;    
     border-radius: 100%;
     margin: 12%;
     box-shadow: 1px 8px 30px #b1afaf;
