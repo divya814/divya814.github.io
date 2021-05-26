@@ -1,78 +1,102 @@
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 340px){
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-us-area .subscribe .subscribe-title,
-    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p,
+    h4,
     .site-main .services-area,
-    .site-main .subscribe-us-area .subscribe
-    {
-        padding: 2%;
+    .site-main .subscribe-us-area .subscribe {
+
         margin: 0%;
     }
 
-    .site-main .site-banner .site-title h1{
-        font-size: 41px;
+    .site-main .site-banner .site-title h1 {
+        font-size: 20px;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 15rem    !important;
-    }
-
-    .site-main > .services-area .services{
-        width: 13rem;
-    }
 
 }
 
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 792px){
-    .site-main .about-area .about-title h2 > span{
-        font-size: 31px;
-        letter-spacing: 10px;
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 792px) {
+    .site-main .site-banner .site-title h1 {
+        font-size: 40px;
     }
 
-    .site-main .brand-area .experience-area .years-area{
-        padding-left: 1%;
+    .site-main .about-area .about-title {
+        text-align: center;
+    }
+
+    .site-main .about-area .about-title h2>span {
+        font-size: 2.2rem;
+
+        text-align: center;
+    }
+
+    .site-main .brand-area .experience-area .years-area {
         width: 49%;
     }
 
-    .site-main .brand-area .experience-area .bg-panel{
-        margin-left: 30%;
-        width: 80%;   
-    }
-
-    .site-main .brand-area .experience-area .call-area{
-        padding-left: 3%;
-    }
-
-    .site-main .project-area .button-group button{
+    .site-main .project-area .button-group button {
         font: normal 500 18px/40px var(--roboto);
     }
 
-    .site-main .about-area .about-title p{
+    .site-main .about-area .about-title p {
         padding: 0%;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+    .site-main .about-area .container-fluid img {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 100%;
+        box-shadow: 1px 8px 30px #b1afaf;
+        align-content: center;
+    }
+
+    .site-main .project-area .container {
+
+        text-align: center;
+    }
+
+    .site-main .project-area .grid .our-project {
+        text-align: center;
+    }
+
+    .site-main .project-area .grid .our-project .title h4 {
+
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .site-main .project-area .grid .our-project .title span {
+
+        text-align: center;
+        font-size: small;
+    }
+
+    .site-main .project-area img {
+        height: 15rem;
         width: 20rem;
-        margin: 5%;
+        align-content: center;
+        text-align: center;
     }
 }
 
-/* if the viewport is equal to 1910px or less than that */ 
-@media only screen and (max-width: 1910px){
-    .header_area .main-menu .navbar{
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+    .header_area .main-menu .navbar {
         padding: 1rem;
     }
 
-    .container{
+    .container {
         max-width: 90%;
     }
 
     .site-main .brand-area,
     .site-main .services-area .services-title,
-    .site-main .about-area{
+    .site-main .about-area {
         padding: 3% 4%;
     }
 }
