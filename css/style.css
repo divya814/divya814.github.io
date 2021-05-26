@@ -1,182 +1,198 @@
-body{
+body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* navigation */ 
-.header_area .main-menu .navbar .navbar-brand{
+/* navigation */
+.header_area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 3rem;
 }
 
-.header_area .main-menu .navbar{
-    padding: 0.3rem 10rem ;
+.header_area .main-menu .navbar {
+    padding: 0.3rem 15rem;
 }
-.header_area .main-menu .navbar .navbar-brand img{
+
+.header_area .main-menu .navbar .navbar-brand img {
     border-radius: 100%;
     height: 4rem;
     width: 4rem;
+
 }
-.header_area .main-menu .nav-item .nav-link{
-    font-weight: 520;    
+
+.header_area .main-menu .nav-item .nav-link {
+    font-weight: 520;
     text-transform: uppercase;
     padding: 1rem;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:1rem;
+    font-size: 1rem;
 }
 
-.header_area .main-menu .navbar-nav .active a{
+.header_area .main-menu .navbar-nav .active a {
     color: blueviolet;
     background-clip: text;
 }
 
-.header_area .main-menu .navbar-nav a:hover{
+.header_area .main-menu .navbar-nav a:hover {
     color: blueviolet;
     background-clip: text;
 }
 
 /* Home */
 .site-main .site-banner {
-    background: url(../img/background.jpg) no-repeat;
-    height: 35rem;
+    background: url(../img/bg.jpg) no-repeat;
+    height: 32rem;
     color: white;
     width: 100%;
     background-position: center center;
-    padding: 2.3rem;
-    }
 
-.site-main .site-banner .site-title h3{
-    padding-top: 3.5rem;
+    background-size: cover;
+}
+
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 6rem;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
-.site-main .site-banner .site-title h1{
-    font-size: 3rem;
-    
+.site-main .site-banner .site-title h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
 }
 
-.site-main .site-banner .site-title h4{
+.site-main .site-banner .site-title h4 {
     margin-top: 2rem;
     font-size: 1.7rem;
     letter-spacing: 0.2rem;
 }
-.site-main .site-banner .site-title button{
+
+.site-main .site-banner .site-title button {
     background-color: white;
     margin-top: 2.5rem;
-    padding: 0.5rem;
-    
+    padding: 0.7rem;
+
 }
-.site-main .site-banner .site-title button a{
+
+.site-main .site-banner .site-title button a {
     color: black;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.site-main .site-banner .site-title button:hover{
+
+.site-main .site-banner .site-title button:hover {
     background-color: rgb(121, 29, 207);
 
 }
-.site-main .site-banner .site-title button a:hover{
-    text-decoration: none;    
+
+.site-main .site-banner .site-title button a:hover {
+    text-decoration: none;
     color: white;
 }
-/* End Home */ 
 
-/* Start About*/ 
+/* End Home */
 
-.site-main .about-area{
+/* Start About*/
+
+.site-main .about-area {
     margin-top: 3rem;
-    padding: 8rem 1rem;
+    padding: 8rem 0rem;
 }
-.site-main .about-area .container-fluid img{
-    width: 22rem;
-    height: 22rem;    
+
+.site-main .about-area .container-fluid img {
+    width: 21rem;
+    height: 21rem;
     border-radius: 100%;
-    margin: 12%;
+    margin: 10%;
     box-shadow: 1px 8px 30px #b1afaf;
 }
-.site-main .about-area .about-title h2 > span{
+
+.site-main .about-area .about-title h2>span {
     display: block;
     font-size: 40px;
     font-weight: 500;
     letter-spacing: 0.4rem;
 }
 
-.site-main .about-area .about-title .paragraph > p{
-    padding: .4rem 0;
-    font-size: 18px;
-    
+.site-main .about-area .about-title .paragraph>p {
+
+    font-size: 1rem;
+
 }
-.site-main .about-area button{
+
+.site-main .about-area button {
     background-color: rgb(145, 46, 238);
     padding: 0.6rem;
 }
-.site-main .about-area button:hover{
+
+.site-main .about-area button:hover {
     background-color: rgb(6, 87, 240);
 }
-.site-main .about-area button a{
+
+.site-main .about-area button a {
     color: white;
     font-size: 20px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* End About Area */ 
+/* End About Area */
 
 
-/* Start Skills */ 
-.site-main .brand-area{
+/* Start Skills */
+.site-main .brand-area {
     padding: 1rem 20rem;
     margin: 1.5rem 0;
 }
-.site-main .brand-area h2{
+
+.site-main .brand-area h2 {
     font-weight: 500;
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
-.site-main .brand-area .first-row .col-lg-3{
+
+.site-main .brand-area .first-row .col-lg-2 {
     display: flex;
     justify-content: center;
 }
 
-.site-main .brand-area .first-row .col-lg-3 > .single-brand{
+.site-main .brand-area .first-row .col-lg-2>.single-brand {
     border: 1px solid gainsboro;
     text-align: center;
-    padding:8px;
+    padding: 8px;
     margin: .7rem 0;
-    width: 180px;
-    height: 170px;
-    cursor: pointer;
+    width: 8rem;
+    height: 8rem;
     transition: transform .4s ease;
 }
 
-.site-main .brand-area .first-row .col-lg-3 > .single-brand > img{
-    width: 150px;
-    height: 140px;
+.site-main .brand-area .first-row .col-lg-2>.single-brand>img {
+    width: 7rem;
+    height: 7rem;
     margin: 0.3rem 0rem;
 }
 
-.site-main .brand-area .first-row .col-lg-3 > .single-brand:hover{
+.site-main .brand-area .first-row .col-lg-2>.single-brand:hover {
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
 }
 
-/* End Skills */ 
+/* End Skills */
 
-/* Certificates */ 
+/* Certificates */
 
-.site-main .services-area{
-    padding: 1.5rem 1rem;
+.site-main .services-area {
+    padding: 1rem;
 }
 
-.site-main .services-area .services-title{
+.site-main .services-area .services-title {
     padding: 0 1rem;
 }
 
-.site-main .services-area .services-title h1{
+.site-main .services-area .services-title h1 {
     font-size: 40px;
 }
 
-.site-main .services-area .services{
+.site-main .services-area .services {
     background: rgba(235, 237, 238, 0.973);
     padding: 0.5rem;
     width: 30rem;
@@ -184,60 +200,71 @@ body{
     transition: box-shadow .7s ease;
 }
 
-.site-main > .services-area .services:hover{
+.site-main>.services-area .services:hover {
     box-shadow: 1px 8px 30px #b1afaf;
 }
 
-/* End Certificates Area */ 
+/* End Certificates Area */
 
-/* Project Area */ 
+/* Project Area */
 
-.site-main .project-area{
-    padding: 7rem 0;
+.site-main .project-area {
+    padding: 5rem 0;
     margin-top: 2rem;
+
 }
 
-.site-main .project-area .grid .our-project > .title h4{
-    font-weight: 700 ;
+.site-main .project-area .grid .our-project>.title h4 {
+    font-weight: 700;
 }
 
-.site-main .project-area .grid .our-project .img:hover img{
+.site-main .project-area .grid .our-project .title {
+    width: 20rem;
+}
+
+.site-main .project-area img {
+    height: 18rem;
+    width: 20rem;
+}
+
+.site-main .project-area .grid .our-project .img:hover img {
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
-/* End Project Area */ 
+/* End Project Area */
 
-/* Footer Area */ 
-footer.footer-area{
-    padding: 1rem 0;
+/* Footer Area */
+footer.footer-area {
+
     background: url(../img/footer-bg.png) no-repeat;
 }
 
-footer.footer-area .container a img{
+footer.footer-area .container a img {
     border-radius: 100%;
     height: 6rem;
     width: 6rem;
 }
 
-footer.footer-area .social h5{
+footer.footer-area .social h5 {
     font-weight: 500;
     font-size: 40px;
 }
 
-footer.footer-area .social a > i{
-    font-size:2rem;
+footer.footer-area .social a>i {
+    font-size: 2rem;
     padding: 0.6rem;
     color: rgb(213, 112, 233);
-    margin: 14px 8px;
+    margin: 0.5rem;
 }
 
-footer.footer-area .social a:hover > i{
+footer.footer-area .social a:hover>i {
     color: rgb(81, 81, 241);
 }
 
-footer.footer-area .container p{
+footer.footer-area .container p {
     font-size: 1.2rem;
     font-weight: 100;
     margin-top: 1rem;
 }
-/* End Footer */ 
+
+/* End Footer */
