@@ -48,11 +48,16 @@
     }
 
     .site-main .about-area .container-fluid img {
+        display: flex;
+        align-items: center;
         width: 15rem;
         height: 15rem;
         border-radius: 100%;
         box-shadow: 1px 8px 30px #b1afaf;
         align-content: center;
+        justify-content: center;
+        margin: auto;
+
     }
 
     .site-main .project-area .container {
